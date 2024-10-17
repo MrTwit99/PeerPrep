@@ -55,7 +55,7 @@ Login Information for testing:
 - SuperAdmin: superadmin@example.com, PW: 123456
 
 
-**Running the application via Docker Desktop**
+# Running the application via Docker Desktop
 Follow these steps to run the project:   
 
 1. Ensure you have installed Docker Desktop
