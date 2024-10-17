@@ -1,51 +1,13 @@
-# ay2324s1-course-assessment-g47 
-ay2324s1-course-assessment-g47 created by GitHub Classroom
-
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/6BOvYMwN)
+# PeerPrep
 
 # Table of Contents
 
-1. [Assignment 1](#assignment-1)    
-2. [Assignment 2](#assignment-2)   
-3. [Assignment 3](#assignment-3)
-4. [Assignment 4](#assignment-4)
-5. [Assignment 5 and Project](#assignment-5-and-project)
-6. [Setting up PostgreSQL Permissions](#setting-up-postgresql-permissions)
+1. [Setup instructions](#setup-instructions)    
+2. [Running the application via Docker Desktop](#running-the-application-via-docker-desktop)   
+3. [Setting up PostgreSQL Permissions](#setting-up-postgresql-permissions)
 
 
-# Assignment instructions
-## Assignment 1:
-**Setup:** Run `start index.html` in IDE terminal
-<br > <sub>**Note**: Since the question data is stored using local storage, no questions will be shown on initial start up, you will need to add some questions manually first. </sub>   
-
-
-## Assignment 2:
-Follow these steps to run the project:
-
-1. Ensure you have a `.env` file in the `backend` folder.
-
-    Sample `.env` file content in the `backend` folder:
-    ```env
-    DB_USER=postgres
-    DB_HOST=localhost
-    DB_PASSWORD=YOUR_POSTGRES_PASSWORD
-    DB_PORT=YOUR_POSTGRES_PORT->5432
-    DB_DATABASE=cs3219_g47
-    POSTGRESQLPORT=4001
-    PORT=4000
-    MONGO_URI=mongodb+srv://default:1234@g47-assignment-cluster.6vxd6vb.mongodb.net/?retryWrites=true&w=majority
-    ```
-
-2. Run the following commands in the main directory:
-
-    ```bash
-    npm run install-all
-    npm run create-db
-    npm run dev
-    ```
-
-## Assignment 3:
-**Setup:**
+# Setup instructions
 Follow these steps to run the project:
 
 1. Ensure you have a `.env` file in the `backend` folder.
@@ -74,6 +36,8 @@ Follow these steps to run the project:
     npm run create-db
     npm run dev
     ```
+<sub>**Note**: If you are accessing the application via **Docker Desktop**, you may skip this step.
+
 3. The following are the roles and their access:
 
 | Role                | View Question | Add Question | Delete Question | Edit Role (User and SuperUser) | Edit Role (Admin) |
@@ -90,25 +54,8 @@ Login Information for testing:
 - Admin: admin@example.com, PW: 123456 
 - SuperAdmin: superadmin@example.com, PW: 123456
 
-## Assignment 4:
-**Setup:**
-Follow these steps to run the project:   
 
-1. Ensure you have installed Docker Desktop
-2. Run the following commands in the main directory:
-    ```bash
-    docker-compose down
-    docker-compose up --build
-    ```
-3. Wait for the docker to fully initialise and connect to all databases before testing
-4. Login Information for testing:
-    - User: user@example.com, PW: 123456
-    - SuperUser: superuser@example.com, PW: 123456     
-    - Admin: admin@example.com, PW: 123456 
-    - SuperAdmin: superadmin@example.com, PW: 123456
-
-## Assignment 5 and Project:
-**Setup:**
+**Running the application via Docker Desktop**
 Follow these steps to run the project:   
 
 1. Ensure you have installed Docker Desktop
