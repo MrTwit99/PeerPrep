@@ -5,6 +5,7 @@
 1. [Setup instructions](#setup-instructions)    
 2. [Running the application via Docker Desktop](#running-the-application-via-docker-desktop)   
 3. [Setting up PostgreSQL Permissions](#setting-up-postgresql-permissions)
+4. [Setting up NGINX application](#setting-up-nginx-application)
 
 
 # Setup instructions
